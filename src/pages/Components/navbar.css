@@ -1,0 +1,13 @@
+.navlinks {
+    display: flex;
+    padding: 80px;
+    margin: 30px;
+    column-gap: 30px;
+    background-color: chocolate;
+    
+    
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+}
