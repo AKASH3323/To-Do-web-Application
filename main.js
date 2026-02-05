@@ -1,17 +1,11 @@
 let tasks = []
 let resultElement = document.getElementById('result')
 document.getElementById('addBtn').addEventListener('click', () => {
-  // get input value
   let value = document.getElementById('taskInput').value
  
-
-  // push value to array
-  tasks.push(value)
-
-  // reset result element
+tasks.push(value)
   resultElement.innerHTML = ''
 
-  // append all values in result
   tasks.forEach((item,index) => {
     resultElement.innerHTML += `<div>
       <h1>${item}</h1>
